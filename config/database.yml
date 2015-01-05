@@ -22,13 +22,13 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/test.sqlite3
+  database: foo_share_development
 
 production:
   <<: *default
-  database: d8sisvugaftd62
-  username: wzkwebusyeylko
-  password: mZDlfiJ0_J17WK78F94XlDI7aC
-  host: ec2-54-235-146-58.compute-1.amazonaws.com
-  port: 5432
+  #database: d8sisvugaftd62
+  #username: wzkwebusyeylko
+  #password: mZDlfiJ0_J17WK78F94XlDI7aC
+  #host: ec2-54-235-146-58.compute-1.amazonaws.com
+  #port: 5432
   
